@@ -18,6 +18,16 @@ defmodule NervesUbootEnvUBI.MixProject do
     ]
   end
 
+  def cli do
+    [
+      preferred_envs: %{
+        docs: :docs,
+        "hex.build": :docs,
+        "hex.publish": :docs
+      }
+    ]
+  end
+
   def application do
     [extra_applications: [:logger]]
   end
