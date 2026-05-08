@@ -1,0 +1,11 @@
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+erl_crash.dump
+*.ez
+nerves_uboot_env_ubi-*.tar
+/tmp/
+.elixir_ls/
+.lexical/
