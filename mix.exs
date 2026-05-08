@@ -36,7 +36,7 @@ defmodule NervesUbootEnvUBI.MixProject do
     [
       {:nerves_runtime, "~> 0.13"},
       {:uboot_env, "~> 1.0"},
-      {:ex_doc, "~> 0.31", only: :docs, runtime: false}
+      {:ex_doc, ">= 0.0.0", only: :docs, runtime: false}
     ]
   end
 
